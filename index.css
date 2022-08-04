@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:wght@500;700&family=Poppins&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #31087B;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  color: white;
+  background-color: #461d8c;
+  font-family: 'Fredoka One';
+  box-shadow: 1px 0.5px 155px black;
+}
+
+span {
+  color: pink;
+}
+
+.menu a {
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+
+.menu a:hover {
+  border-bottom: 1px solid rgb(107, 107, 0);
+}
+
+#at {
+  border-bottom: 0.5px solid yellow;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 150px;
+  margin: 55px;
+  color: white;
+  font-family: 'Poppins';
+  margin: auto;
+}
+
+#sobre {
+  margin: 15px;
+}
+
+#sobre img {
+  transition: 0.5s;
+}
+
+#sobre img:hover {
+  transform: translateY(-10px);
+  filter: drop-shadow(1px 0.5px 55px black);
+}
