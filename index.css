@@ -256,3 +256,30 @@ header {
 #depo img:hover {
     transform: translateY(-10px);
 }
+
+#disqus_thread {
+  width: 900px;
+  margin: auto;
+  padding: 15px;
+}
+
+footer {
+  padding: 50px;
+  color: white;
+  text-align: center;
+  background-color: blueviolet;
+  font-family: 'Fredoka One', 'Montserrat', 'Poppins', tahoma, verdana, arial;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a {
+  transition: 1s;
+}
+
+footer a:hover {
+  color: rgb(11, 0, 128);
+}
