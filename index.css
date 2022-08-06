@@ -426,3 +426,17 @@ footer a:hover {
         font-size: 10px;
     }
 }
+
+@media screen and (max-width: 375px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menus a {
+        font-size: 13px;
+        margin: 1px;
+        text-align: center;
+    }
+}
