@@ -72,6 +72,12 @@ span {
     color: #34f200;
 }
 
+#aqui {
+    border: 1px solid indigo;
+    padding: 5px;
+    background-color: rgba(172, 53, 252, 0.8);
+}
+
 .logo {
     color: white;
     font-family: 'Fredoka One', 'Montserrat', 'Poppins', Arial, Tahoma;
