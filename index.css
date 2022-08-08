@@ -342,6 +342,22 @@ footer a:hover {
 }
 
 @media screen and (max-width: 415px) {
+
+    body {
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    .menus a {
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    #sobre p {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
     header{
         display: flex;
         flex-direction: column;
@@ -386,7 +402,7 @@ footer a:hover {
     }
 
     .menus a {
-        font-size: 8px;
+        font-size: 17.5px;
     }
 
     #infos {
@@ -492,6 +508,11 @@ footer a:hover {
 }
 
 @media screen and (max-width: 375px) {
+
+    body {
+        font-weight: bold;
+    }
+
     header {
         display: flex;
         flex-direction: column;
@@ -499,13 +520,29 @@ footer a:hover {
     }
 
     .menus a {
-        font-size: 13px;
+        font-size: 17px;
         margin: 1px;
         text-align: center;
     }
 
+    .oque li {
+        font-size: 28px;
+    }
+
+    #info-value {
+        font-size: 23px;
+    }
+
+    #pagamento {
+        font-size: 28px;
+    }
+
     details {
         width: 325px;
+    }
+
+    summary {
+        font-size: 20px;
     }
 
     .depoimentos {
