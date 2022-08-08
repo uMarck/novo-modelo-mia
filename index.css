@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fredoka+One&family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:wght@500;700&family=Poppins&family=Zen+Loop&display=swap');
 
 * {
     padding: 0;
@@ -8,6 +8,7 @@
 body {
     background-color: rgb(40, 0, 77);
     user-select: none;
+    font-family: 'Zen Loop', 'Fredoka One', 'Montserrat', Tahoma, Verdana;
 }
 
 header {
@@ -37,7 +38,7 @@ summary {
     transition: 1s;
     padding: 15px;
     color: white;
-    font-family: 'Montserrat', 'Fredoka One';
+    font-family: 'Zen Loop', 'Fredoka One', 'Montserrat', Tahoma, Verdana;
 }
 
 
@@ -80,7 +81,7 @@ span {
 
 .logo {
     color: white;
-    font-family: 'Fredoka One', 'Montserrat', 'Poppins', Arial, Tahoma;
+    font-family: 'Zen Loop', 'Fredoka One', 'Montserrat', Tahoma, Verdana;
 }
 
 .bar {
@@ -95,7 +96,7 @@ span {
     text-decoration: none;
     margin: 15px;
     padding: 10px;
-    font-family: 'Fredoka One', 'Montserrat', 'Poppins', tahoma, verdana, arial;
+    font-family: 'Zen Loop', 'Fredoka One', 'Montserrat', Tahoma, Verdana;
 }
 
 .redes a {
@@ -137,7 +138,7 @@ span {
 }
 
 #sobre h1, p {
-    font-family: 'Fredoka One', 'Montserrat', 'Poppins', tahoma, verdana, arial;
+    font-family: 'Zen Loop', 'Fredoka One', 'Montserrat', Tahoma, Verdana;
 }
 
 #sobre:hover {
@@ -145,7 +146,7 @@ span {
 }
 
 #infos {
-    font-family: 'Fredoka One', 'Montserrat', 'Poppins', tahoma, verdana, arial;
+    font-family: 'Zen Loop', 'Fredoka One', 'Montserrat', Tahoma, Verdana;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -159,7 +160,7 @@ span {
     margin: auto;
     text-align: center;
     color: white;
-    font-family: 'Fredoka One', 'Montserrat', 'Poppins', tahoma, verdana, arial;
+    font-family: 'Zen Loop', 'Fredoka One', 'Montserrat', Tahoma, Verdana;
 }
 
 #galeria {
@@ -170,7 +171,7 @@ span {
     margin: auto;
     text-align: center;
     color: white;
-    font-family: 'Fredoka One', 'Montserrat', 'Poppins', tahoma, verdana, arial;
+    font-family: 'Zen Loop', 'Fredoka One', 'Montserrat', Tahoma, Verdana;
 }
 
 .dis {
@@ -201,7 +202,7 @@ span {
 #info-value {
     text-align: center;
     color: white;
-    font-family: 'Fredoka One', 'Montserrat', 'Poppins', tahoma, verdana, arial;
+    font-family: 'Zen Loop', 'Fredoka One', 'Montserrat', Tahoma, Verdana;
     margin: 35px;
 }
 
@@ -213,7 +214,7 @@ span {
     margin: auto;
     text-align: center;
     color: white;
-    font-family: 'Fredoka One', 'Montserrat', 'Poppins', tahoma, verdana, arial;
+    font-family: 'Zen Loop', 'Fredoka One', 'Montserrat', Tahoma, Verdana;
     padding: 15px;
     margin: 10px;
 }
@@ -240,7 +241,7 @@ span {
     margin: auto;
     text-align: center;
     color: white;
-    font-family: 'Fredoka One', 'Montserrat', 'Poppins', tahoma, verdana, arial;
+    font-family: 'Zen Loop', 'Fredoka One', 'Montserrat', Tahoma, Verdana;
     padding: 15px;
     margin: 10px;
 }
@@ -283,7 +284,7 @@ span {
 #pagamento {
     color: white;
     text-align: center;
-    font-family: 'Fredoka One', 'Montserrat', 'Poppins', tahoma, verdana, arial;
+    font-family: 'Zen Loop', 'Fredoka One', 'Montserrat', Tahoma, Verdana;
 }
 
 #formas {
@@ -296,7 +297,7 @@ span {
 #depoimentos {
     color: white;
     text-align: center;
-    font-family: 'Fredoka One', 'Montserrat', 'Poppins', tahoma, verdana, arial;
+    font-family: 'Zen Loop', 'Fredoka One', 'Montserrat', Tahoma, Verdana;
 }
 
 #depo {
@@ -328,7 +329,7 @@ footer {
   color: white;
   text-align: center;
   background-color: indigo;
-  font-family: 'Fredoka One', 'Montserrat', 'Poppins', tahoma, verdana, arial;
+  font-family: 'Zen Loop', 'Fredoka One', 'Montserrat', Tahoma, Verdana;
 }
 
 footer a {
