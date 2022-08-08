@@ -348,6 +348,10 @@ footer a:hover {
         font-weight: bold;
     }
 
+    #websx {
+        font-size: 25px;
+    }
+
     .menus a {
         font-size: 25px;
         font-weight: bolder;
@@ -486,6 +490,10 @@ footer a:hover {
         width: 355px;
         margin: auto;
         font-size: 15px;
+    }
+
+    #info-value {
+        font-size: 28px;
     }
 
     #depo {
