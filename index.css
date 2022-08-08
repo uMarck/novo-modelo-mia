@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:wght@500;700&family=Poppins&family=Zen+Loop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Zen Loop:wght@500;700&family=Poppins&family=Zen+Loop&display=swap');
 
 * {
     padding: 0;
@@ -8,7 +8,8 @@
 body {
     background-color: rgb(40, 0, 77);
     user-select: none;
-    font-family: 'Montserrat', Tahoma, Verdana;
+    font-family: 'Zen Loop', Tahoma, Verdana;
+    font-size: 25.5px;
 }
 
 header {
@@ -38,7 +39,7 @@ summary {
     transition: 1s;
     padding: 15px;
     color: white;
-    font-family: 'Montserrat', Tahoma, Verdana;
+    font-family: 'Zen Loop', Tahoma, Verdana;
 }
 
 
@@ -81,7 +82,7 @@ span {
 
 .logo {
     color: white;
-    font-family: 'Montserrat', Tahoma, Verdana;
+    font-family: 'Zen Loop', Tahoma, Verdana;
 }
 
 .bar {
@@ -96,7 +97,7 @@ span {
     text-decoration: none;
     margin: 15px;
     padding: 10px;
-    font-family: 'Montserrat', Tahoma, Verdana;
+    font-family: 'Zen Loop', Tahoma, Verdana;
 }
 
 .redes a {
@@ -136,7 +137,7 @@ span {
 }
 
 #sobre h1, p {
-    font-family: 'Montserrat', Tahoma, Verdana;
+    font-family: 'Zen Loop', Tahoma, Verdana;
 }
 
 #sobre:hover {
@@ -144,7 +145,7 @@ span {
 }
 
 #infos {
-    font-family: 'Montserrat', Tahoma, Verdana;
+    font-family: 'Zen Loop', Tahoma, Verdana;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -158,7 +159,7 @@ span {
     margin: auto;
     text-align: center;
     color: white;
-    font-family: 'Montserrat', Tahoma, Verdana;
+    font-family: 'Zen Loop', Tahoma, Verdana;
 }
 
 #galeria {
@@ -169,7 +170,7 @@ span {
     margin: auto;
     text-align: center;
     color: white;
-    font-family: 'Montserrat', Tahoma, Verdana;
+    font-family: 'Zen Loop', Tahoma, Verdana;
 }
 
 .dis {
@@ -197,7 +198,7 @@ span {
 #info-value {
     text-align: center;
     color: white;
-    font-family: 'Montserrat', Tahoma, Verdana;
+    font-family: 'Zen Loop', Tahoma, Verdana;
     margin: 35px;
 }
 
@@ -209,7 +210,7 @@ span {
     margin: auto;
     text-align: center;
     color: white;
-    font-family: 'Montserrat', Tahoma, Verdana;
+    font-family: 'Zen Loop', Tahoma, Verdana;
     padding: 15px;
     margin: 10px;
 }
@@ -236,7 +237,7 @@ span {
     margin: auto;
     text-align: center;
     color: white;
-    font-family: 'Montserrat', Tahoma, Verdana;
+    font-family: 'Zen Loop', Tahoma, Verdana;
     padding: 15px;
     margin: 10px;
 }
@@ -279,7 +280,7 @@ span {
 #pagamento {
     color: white;
     text-align: center;
-    font-family: 'Montserrat', Tahoma, Verdana;
+    font-family: 'Zen Loop', Tahoma, Verdana;
 }
 
 #formas {
@@ -292,7 +293,7 @@ span {
 #depoimentos {
     color: white;
     text-align: center;
-    font-family: 'Montserrat', Tahoma, Verdana;
+    font-family: 'Zen Loop', Tahoma, Verdana;
 }
 
 #depo {
@@ -324,7 +325,7 @@ footer {
   color: white;
   text-align: center;
   background-color: indigo;
-  font-family: 'Montserrat', Tahoma, Verdana;
+  font-family: 'Zen Loop', Tahoma, Verdana;
 }
 
 footer a {
