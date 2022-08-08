@@ -140,10 +140,6 @@ span {
     font-family: 'Zen Loop', Tahoma, Verdana;
 }
 
-#sobre:hover {
-    color: grey;
-}
-
 #infos {
     font-family: 'Zen Loop', Tahoma, Verdana;
     display: flex;
