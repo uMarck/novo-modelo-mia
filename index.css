@@ -352,6 +352,13 @@ footer a:hover {
         font-size: 25px;
     }
 
+    #link {
+        width: 350px;
+        font-weight: 700;
+        font-style: normal;
+        margin: auto;
+    }
+
     .menus a {
         font-size: 25px;
         font-weight: bolder;
@@ -525,6 +532,13 @@ footer a:hover {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    #link {
+        width: 255px;
+        font-weight: 700;
+        font-style: normal;
+        margin: auto;
     }
 
     .menus a {
