@@ -492,7 +492,7 @@ footer a:hover {
     #pagamento p {
         width: 355px;
         margin: auto;
-        font-size: 15px;
+        font-size: 28px;
     }
 
     #info-value {
@@ -552,6 +552,10 @@ footer a:hover {
     }
 
     #pagamento {
+        font-size: 28px;
+    }
+
+    #pagamento p {
         font-size: 28px;
     }
 
