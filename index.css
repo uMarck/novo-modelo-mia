@@ -261,11 +261,7 @@ span {
     padding: 20px;
     border: 1px solid grey;
     transition: 0.5s;
-}
-
-.link:hover {
     background-color: blueviolet;
-    text-shadow: 1px 1px 25px black;
 }
 
 .link a {
@@ -535,6 +531,7 @@ footer a:hover {
         font-weight: 700;
         font-style: normal;
         margin: auto;
+        background-color: blueviolet;
     }
 
     .menus a {
