@@ -40,8 +40,16 @@ summary {
     padding: 15px;
     color: white;
     font-family: 'Zen Loop', Tahoma, Verdana;
+    font-weight: bold;
+    background-color: green;
+    width: 810px;
+    margin: auto;
 }
 
+#depoimentos {
+    width: 900px;
+    margin: auto;
+}
 
 .depoimentos {
     display: flex;
@@ -261,7 +269,11 @@ span {
     padding: 20px;
     border: 1px solid grey;
     transition: 0.5s;
+}
+
+.link:hover {
     background-color: blueviolet;
+    text-shadow: 1px 1px 25px black;
 }
 
 .link a {
@@ -361,6 +373,22 @@ footer a:hover {
         font-weight: bold;
     }
 
+    summary {
+        font-size: 25px;
+        font-weight: bold;
+        width: 350px;
+        margin: auto;
+    }
+
+    #depoimentos {
+        margin: auto;
+        width: 412px;
+    }
+
+    #depoimentos img {
+        width: 300px;
+    }
+
     header{
         display: flex;
         flex-direction: column;
@@ -371,12 +399,6 @@ footer a:hover {
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-
-    details {
-        width: 365px;
-        border-radius: 25px;
-        text-align: center;
     }
 
     .depoimentos {
@@ -531,7 +553,6 @@ footer a:hover {
         font-weight: 700;
         font-style: normal;
         margin: auto;
-        background-color: blueviolet;
     }
 
     .menus a {
@@ -562,6 +583,8 @@ footer a:hover {
 
     summary {
         font-size: 20px;
+        width: 303px;
+        font-weight: bold;
     }
 
     .depoimentos {
@@ -570,5 +593,10 @@ footer a:hover {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+    }
+
+    #depoimentos {
+        width: 374px;
+        margin: auto;
     }
 }
