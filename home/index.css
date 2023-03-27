@@ -1,0 +1,602 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Zen Loop:wght@500;700&family=Poppins&family=Zen+Loop&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(40, 0, 77);
+    user-select: none;
+    font-family: 'Zen Loop', Tahoma, Verdana;
+    font-size: 25.5px;
+}
+
+header {
+    background-color: indigo;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 25px;
+}
+
+details {
+    border: 1px solid black;
+    margin: 55px auto;
+    width: 900px;
+    padding: 15px;
+    border-radius: 55px;
+    background-color: rgb(113, 3, 141);
+    transition: 1s;
+}
+
+details:hover {
+    filter: drop-shadow(1px 5px 5px black);
+}
+
+summary {
+    transition: 1s;
+    padding: 15px;
+    color: white;
+    font-family: 'Zen Loop', Tahoma, Verdana;
+    font-weight: bold;
+    background-color: green;
+    width: 810px;
+    margin: auto;
+}
+
+#depoimentos {
+    width: 900px;
+    margin: auto;
+}
+
+.depoimentos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.depoimentos img {
+    padding: 15px;
+    margin: 15px;
+    transition: 0.5s;
+}
+
+.depoimentos img:hover {
+    transform: translateY(-15px);
+    border-radius: 5px solid indigo;
+    filter: drop-shadow(1px 5px 15px black);
+}
+
+.header {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span {
+    color: #34f200;
+}
+
+#aqui {
+    border: 1px solid indigo;
+    padding: 2px;
+    background-color: rgba(172, 53, 252, 0.8);
+}
+
+.logo {
+    color: white;
+    font-family: 'Zen Loop', Tahoma, Verdana;
+}
+
+.bar {
+    width: 150px;
+    height: 2px;
+    background-color: rgb(255, 0, 191);
+    margin: auto;
+}
+
+.menus a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    padding: 10px;
+    font-family: 'Zen Loop', Tahoma, Verdana;
+}
+
+.redes a {
+    margin: 2px;
+    padding: 3px;
+}
+
+.redes img {
+    transition: 0.5s;
+}
+
+.redes img:hover {
+    transform: translateY(-10px);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 100px;
+    color: white;
+    align-items: center;
+}
+
+.img img {
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.img img:hover {
+    border-radius: 50px;
+    transform: translateY(-10px);
+}
+
+#sobre {
+    transition: 0.5s;
+}
+
+#sobre h1, p {
+    font-family: 'Zen Loop', Tahoma, Verdana;
+}
+
+#infos {
+    font-family: 'Zen Loop', Tahoma, Verdana;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    margin: 15px;
+}
+
+#onde {
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-family: 'Zen Loop', Tahoma, Verdana;
+}
+
+#galeria {
+    padding:105px 0;
+}
+
+#galeria {
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-family: 'Zen Loop', Tahoma, Verdana;
+}
+
+.dis {
+    color: grey;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 25px;
+}
+
+#card img {
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+#card img:hover {
+    border-radius: 50px;
+    box-shadow: 1px 1px 55px black;
+}
+
+#info-value {
+    text-align: center;
+    color: white;
+    font-family: 'Zen Loop', Tahoma, Verdana;
+    margin: 35px;
+}
+
+#info-value p {
+    line-height: 40px;
+}
+
+#websx {
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-family: 'Zen Loop', Tahoma, Verdana;
+    padding: 15px;
+    margin: 10px;
+}
+
+#cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card {
+    background-color: indigo;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.card img {
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+#pacotes {
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-family: 'Zen Loop', Tahoma, Verdana;
+    padding: 15px;
+    margin: 10px;
+}
+
+#packs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#pack {
+    background-color: indigo;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+#pack img {
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.link {
+    margin: 25px;
+    padding: 20px;
+    border: 1px solid grey;
+    transition: 0.5s;
+}
+
+.link:hover {
+    background-color: blueviolet;
+    text-shadow: 1px 1px 25px black;
+}
+
+.link a {
+    text-decoration: none;
+    color: white;
+}
+
+#pagamento {
+    color: white;
+    text-align: center;
+    font-family: 'Zen Loop', Tahoma, Verdana;
+}
+
+#formas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#depoimentos {
+    color: white;
+    text-align: center;
+    font-family: 'Zen Loop', Tahoma, Verdana;
+}
+
+#depo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#depo img {
+    background-color: indigo;
+    border-radius: 25px;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+#depo img:hover {
+    transform: translateY(-10px);
+}
+
+#disqus_thread {
+  width: 900px;
+  margin: auto;
+  padding: 15px;
+}
+
+footer {
+  padding: 50px;
+  color: white;
+  text-align: center;
+  background-color: indigo;
+  font-family: 'Zen Loop', Tahoma, Verdana;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a {
+  transition: 1s;
+}
+
+footer a:hover {
+  text-shadow: 1px 5px 15px black;
+}
+
+@media screen and (max-width: 415px) {
+
+    body {
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    #websx {
+        font-size: 25px;
+    }
+
+    #link {
+        width: 350px;
+        font-weight: 700;
+        font-style: normal;
+        margin: auto;
+    }
+
+    .menus a {
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    #sobre p {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    summary {
+        font-size: 25px;
+        font-weight: bold;
+        width: 350px;
+        margin: auto;
+    }
+
+    #depoimentos {
+        margin: auto;
+        width: 412px;
+    }
+
+    #depoimentos img {
+        width: 300px;
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+    }
+
+    .menus {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .depoimentos {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #ps {
+        width: 413px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .redes {
+        margin: 10px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+    }
+
+    .menus a {
+        font-size: 17.5px;
+    }
+
+    #infos {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .dispo {
+        padding: 35px 0 0 0;
+    }
+
+    /*SESSÕES WEB SEXO*/
+    #cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+
+    .card img {
+        width: 285px;
+    }
+    /*SESSÕES WEB SEXO*/
+    
+    /*GALERIA DE AMOSTRAS*/
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1px;
+        margin: 5px;
+    }
+
+    #card {
+        padding: 15px;
+        margin: 15px;
+    }
+    /*GALERIA DE AMOSTRAS*/
+
+    #pacotes {
+        margin: auto;
+        text-align: center;
+        width: 355px;
+    }
+
+    #packs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #pack {
+        padding: 1px;
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #pack img {
+        width: 325px;
+        padding: 2px;
+    }
+
+    #formas {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #pagamento {
+        margin: auto;
+    }
+
+    #pagamento p {
+        width: 355px;
+        margin: auto;
+        font-size: 28px;
+    }
+
+    #info-value {
+        font-size: 28px;
+    }
+
+    #depo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #disqus_thread {
+        width: 302px;
+        padding: 0;
+        margin: auto;
+    }
+
+    footer {
+        padding: 15px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    body {
+        font-weight: bold;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #link {
+        width: 255px;
+        font-weight: 700;
+        font-style: normal;
+        margin: auto;
+    }
+
+    .menus a {
+        font-size: 17px;
+        margin: 1px;
+        text-align: center;
+    }
+
+    .oque li {
+        font-size: 28px;
+    }
+
+    #info-value {
+        font-size: 23px;
+    }
+
+    #pagamento {
+        font-size: 28px;
+    }
+
+    #pagamento p {
+        font-size: 28px;
+    }
+
+    details {
+        width: 325px;
+    }
+
+    summary {
+        font-size: 20px;
+        width: 303px;
+        font-weight: bold;
+    }
+
+    .depoimentos {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #depoimentos {
+        width: 374px;
+        margin: auto;
+    }
+}
